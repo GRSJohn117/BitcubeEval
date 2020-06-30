@@ -83,7 +83,7 @@ input[type=submit] {
     <input type="text" id="usrname" name="usrname" required>
 
     <label for="psw">Password</label>
-    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters" required>
+    <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Password must have at least 1 uppercase character, 1 lowercase character, 1 special character,1 number and must be at least 6 characters long" required>
     
     <input type="submit" value="Submit">
   </form>
