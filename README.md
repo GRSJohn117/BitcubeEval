@@ -255,3 +255,27 @@ form {
       width: 100%;
     }
   }
+
+SECTION 3's HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="the URL for the profile page goes here">PROFILE</a> |
+        <a href="the URL for the friends page goes here">FRIENDS</a> |
+        <a href="the URL for the login page goes here">LOGOUT</a> |
+    </nav>
+</body>
+</html>
+
+THE CSS:
+nav {
+  display: block;
+    background-color: rgb(175, 175, 201);
+  }
